@@ -153,6 +153,11 @@
 
 ## 四、项目结构预览
 
+> 详细的项目结构设计请参阅：
+> - [前端结构设计](../03-design/frontend-structure.md)
+> - [后端结构设计](../03-design/backend-structure.md)
+> - [数据库设计](../03-design/database-schema.md)
+
 ```
 project1/
 ├── docs/                    # 文档目录
@@ -164,7 +169,7 @@ project1/
 │   │   ├── stores/          # 状态管理
 │   │   └── api/             # API 请求
 │   └── package.json
-├── backend/                 # 后端项目 (NestJS / Express)
+├── backend/                 # 后端项目 (NestJS)
 │   ├── src/
 │   │   ├── modules/         # 模块
 │   │   ├── controllers/     # 控制器
@@ -216,7 +221,17 @@ project1/
 └── 标签管理测试
 ```
 
-## 六、下一步
+## 六、相关文档
+
+- [博客功能规格](../02-specifications/blog-features.md)
+- [前端结构设计](../03-design/frontend-structure.md)
+- [后端结构设计](../03-design/backend-structure.md)
+- [数据库设计](../03-design/database-schema.md)
+- [API 设计](../03-design/api-design.md)
+- [开发规范](../03-design/development-conventions.md)
+- [开发优先级](../06-project-plan/development-priority.md)
+
+## 七、下一步
 
 1. 重启 VSCode 以启用所有插件
 2. 创建项目结构
